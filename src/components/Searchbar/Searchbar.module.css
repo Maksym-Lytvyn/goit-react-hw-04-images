@@ -1,0 +1,52 @@
+
+
+.SearchForm {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  background-color: #3f51b5;
+  border-radius: 3px;
+
+}
+
+.SearchForm_button {
+  position: sticky;
+  display: inline-block;
+  border: 2px solid black;
+  width: 78px;
+  height: 48px;
+  padding: 10px;
+  background-color: #0028f1;
+  color: snow;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+.SearchForm_button_label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+}
+
+.SearchForm_input {
+  position: sticky;
+  display: inline-block;
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 3px solid black;
+}
+
+.SearchForm-input::placeholder {
+  font: inherit;
+  font-size: 18px;
+}
